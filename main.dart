@@ -28,25 +28,25 @@ class Subject {
         gradePoints = 10.0;
         break;
       case 'A-':
-        gradePoints = 9.5;
-        break;
-      case 'B':
         gradePoints = 9.0;
         break;
-      case 'B-':
-        gradePoints = 8.5;
-        break;
-      case 'C':
+      case 'B':
         gradePoints = 8.0;
         break;
-      case 'C-':
-        gradePoints = 7.5;
-        break;
-      case 'D':
+      case 'B-':
         gradePoints = 7.0;
         break;
+      case 'C':
+        gradePoints = 6.0;
+        break;
+      case 'C-':
+        gradePoints = 5.0;
+        break;
+      case 'D':
+        gradePoints = 4.0;
+        break;
       case 'E':
-        gradePoints = 6.5;
+        gradePoints = 3.0;
       default:
         gradePoints = 0.0;
     }
